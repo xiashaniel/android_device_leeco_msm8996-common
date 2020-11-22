@@ -58,3 +58,6 @@
 
 # R-11 label dpmd
 /(product|system/product)/bin/dpmd                                   u:object_r:vendor_dpmd_exec:s0
+
+# R-11 files in Root-fs
+/persist(/.*)?                                                       u:object_r:mnt_vendor_file:s0
