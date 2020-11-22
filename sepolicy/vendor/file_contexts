@@ -55,3 +55,6 @@
 /sys/devices/soc/soc:qcom,camera-flash/flashled[0-9](/.*)?               u:object_r:sysfs_torch:s0
 
 /sys/remote/enable                                                       u:object_r:sysfs_ir_enable:s0
+
+# R-11 label dpmd
+/(product|system/product)/bin/dpmd                                   u:object_r:vendor_dpmd_exec:s0

@@ -1,0 +1,2 @@
+#R-11 fix denials for vendor_dpmd
+allow vendor_dpmd unlabeled:file { read };
