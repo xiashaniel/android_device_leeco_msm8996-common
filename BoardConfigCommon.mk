@@ -236,4 +236,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # IPA Tethering
 TARGET_USES_NO_MTU_IPACM := true
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 -include vendor/leeco/msm8996-common/BoardConfigVendor.mk

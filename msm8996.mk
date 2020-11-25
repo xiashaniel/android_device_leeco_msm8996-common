@@ -485,4 +485,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.model
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 $(call inherit-product, vendor/leeco/msm8996-common/msm8996-common-vendor.mk)
